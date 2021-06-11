@@ -1,0 +1,33 @@
+package programs;
+
+public class Constructor {
+	
+	public Constructor() {
+		this(5, 2);
+		System.out.println(" Number one is running");
+		
+		
+	}
+	
+	
+public Constructor(int a, int b) {
+		
+	int z=a+30;
+	int y=b+2;
+		System.out.println(" Number two is running");
+	System.out.println(z+"       "   +y);
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Constructor abc = new Constructor();
+		Constructor def = new Constructor(10,20);
+		
+		
+		
+	}
+
+}
